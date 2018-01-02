@@ -1,0 +1,86 @@
+.container {
+	font-family: 'Permanent Marker', cursive;
+	/*width: 75%;*/
+}
+
+#mainBlock {
+	background-color: #E8E8E8;
+	height: 400px;
+	width: 75%;
+	margin-left: 150px;
+}
+
+#textBlock {
+	margin-left: 50px;
+	padding: 20px;
+
+}
+
+h1 {
+	color: navy;
+	font-size: 55px;
+}
+
+#explaination{
+	font-size: 20px;
+}
+
+button {
+	height: 55px;
+	width: 175px;
+	background-color: #39B7CD;
+}
+
+#routes {
+	margin-left: 210px;
+	color: #39B7CD;
+}
+
+
+/*  ////////// Survey Page /////////   */
+
+
+.surveyBlock {
+	/*position: center-absolute;*/
+	width: 75%;
+	margin-left: 150px;
+}
+
+#surveyHeader {
+	background-color: #E8E8E8;
+	height: 110px;
+	/*margin: 10px;*/
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#aboutYouText {
+	font-size: 30px;
+}
+
+#aboutYou {
+	width: 100%;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+#Qbreak {
+	width: 300px;
+	align-items: left;
+}
+
+#surveyRoutes {
+	color: #39B7CD;
+}
+
+#submitButton {
+	height: 50px;
+	width: 100px;
+	background-color: #39B7CD;
+	font-family: 'Permanent Marker', cursive;
+
+}

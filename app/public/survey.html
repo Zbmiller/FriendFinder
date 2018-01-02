@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script src="https://use.fontawesome.com/951e9db9e6.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Questionable FriendFinder</title>
+</head>
+
+
+<body>
+	<div class="container">
+
+	<div class="surveyBlock">
+		<div class="row" id="surveyHeader">
+		<h1><i class="fa fa-question-circle-o" aria-hidden="true"></i> Survey Questions</h1>
+		</div>
+				<hr>
+		
+		<div class="row">
+			<h2 id="aboutYouText"><i class="fa fa-meh-o" aria-hidden="true"></i> About You</h2>	
+				<form >
+					Name (required)<br>
+						<input type="text" name="" id="name" class="form-control" placeholder="First Name" required> <br>
+					Link to Photo Image (required) <br>
+						<input type="text" name="" id="photo" class="form-control" placeholder="imageURL.com/stuff" required> <br>	
+				</form>
+					<br>
+					<hr>
+			<div class="col-md-12" id="questionBlock">
+				<h4>On a Scale of 1 (Very Uncomfortable With Idea <i class="fa fa-frown-o" aria-hidden="true"></i>) to 5 (Totally Cool With It <i class="fa fa-smile-o" aria-hidden="true"></i>) Answer the Following Scenarios</h4>
+				<form>
+					<hr align="left" id="Qbreak">
+					<h4>Scenario 1</h4>					  	
+						<p>Getting a Ride from a Stranger in a Part of Town You've Been to Before</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q1">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 2</h4>					
+						<p>Fresh, Clean Food Sitting Right On Top of the Dumpster</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q2">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 3</h4>						
+						<p>"Can I have a Sip of Your Drink" -Stranger</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q3">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 4</h4>			
+						<p>Sleeping in Public Places</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q4">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 5</h4>
+						<p>You: "Who did you bring to my house?"</p>
+						<p>Your Friend: "Just some guy I met at a Party"</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q5">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 6</h4>					
+						<p>"Yo, I might have just Picked a Fight with Those two Guys Over There. You Got My Back, Right?" -Person You Met 20 Minutes Ago</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q6">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 7</h4>						
+						<p>Used Socks</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q7">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 8</h4>					
+						<p>Borrowing Money</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q8">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 9</h4>						
+						<p>Loaning Money</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q9">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+					<h4>Scenario 10</h4>					
+						<p>The possible need to "Dissapear" for a Few Days</p>
+						<p>1 <i class="fa fa-frown-o" aria-hidden="true"></i> to 5 <i class="fa fa-smile-o" aria-hidden="true"></i> </p>
+						<select data-placeholder="" class="chosen-select" id="q10">
+            				<option value=""></option>
+            				<option value="1">1 <i class="fa fa-frown-o" aria-hidden="true"></i> (Uncomfortable)</option>
+            				<option value="2">2</option>
+            				<option value="3">3</option>
+            				<option value="4">4</option>
+            				<option value="5">5 <i class="fa fa-smile-o" aria-hidden="true"></i> (Totally Cool)</option>
+        				</select>
+        				<br><br>
+        				<hr align="left" id="Qbreak">
+						<br>
+
+					<input type="submit" name="submit" value="Submit" id="submitButton">
+				</form>
+
+			</div>
+		</div>
+
+		<br>
+		<hr>
+		<br>
+	<footer class="footer">
+        <div class="container">
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Zbmiller/FriendFinder">GitHub Repo</a></p>
+        </div>
+    </footer>
+	<br>
+	<br>
+
+	</div>
+
+</div>
+
+<!-- Modal -->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    // Chosen CSS
+
+    // Capture the form inputs
+    $("#submit").on("click", function() {
+
+        // Form validation
+        function validateForm() {
+            var isValid = true;
+            $('.form-control').each(function() {
+                if ($(this).val() === '')
+                    isValid = false;
+            });
+
+            $('.chosen-select').each(function() {
+
+                if ($(this).val() === "")
+                    isValid = false
+            })
+            return isValid;
+        }
+
+        // If all required fields are filled
+        if (validateForm() == true) {
+            // Create an object for the user's data
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+            }
+
+            // Grab the URL of the website
+            var currentURL = window.location.origin;
+
+            // AJAX post the data to the friends API.
+            $.post(currentURL + "/api/friends", userData, function(data) {
+
+                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $("#matchName").text(data.name);
+                $('#matchImg').attr("src", data.photo);
+
+                // Show the modal with the best match
+                $("#resultsModal").modal('toggle');
+
+            });
+        } else {
+            alert("Please fill out all fields before submitting!");
+        }
+
+        return false;
+    });
+    </script>
+
+</body>
+
+</html>
